@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: NotoSans;    
+    src : url(../src/assets/fonts/NotoSans-VariableFont_wdth,wght.ttf);
+}
+@theme{
+    --font-notosans : NotoSans, "sans-serif";
+} 
