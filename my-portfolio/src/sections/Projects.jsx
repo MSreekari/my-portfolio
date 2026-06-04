@@ -5,7 +5,7 @@ export default function Projects() {
   const projectsData = [
     {
       id: 1,
-      image: "public/images/zta-for-ai.png",
+      image: "/images/zta-for-ai.png",
       title: "Zero Trust Architecture for AI Agents",
       description:
         "A Zero Trust security middleware that prevents AI agents from accessing unauthorized organizational data. By implementing Continuous Authentication and Role-Based Access Control (RBAC), this gateway ensures that every request is verified, authorized, and sanitized before data is returned.",
@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      image: "public/images/secure-notes-ai.png",
+      image: "/images/secure-notes-ai.png",
       title: "Secure Notes Application with Langchain",
       description:
         "A backend secure notes application with JWT-based authentication, AES encryption for data protection, and AI-powered sensitive data detection. It implements Zero Trust Resource Ownership, with Cryptographic At-Rest Encryption, Dynamic Data Masking Stream,Linguistic Search Optimization, and also generates a crisp AI Summary of the note.",
@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       id: 3,
-      image: "public/images/soc-project.png",
+      image: "/images/soc-project.png",
       title: "SOC Attack Simulation and Incident Response",
       description:
         "This project demonstrates the simulation and analysis of common cyber attack patterns in a controlled lab environment. The focus is on understanding attacker behavior and identifying detection patterns through system logs, similar to real-world Security Operations Center (SOC) workflows.",
@@ -38,7 +38,7 @@ export default function Projects() {
   const articlesData = [
     {
       id: 1,
-      image: "public/images/vercel-breach.png",
+      image: "/images/vercel-breach.png",
       title: "Vercel Breach Explained",
       excerpt:
         "Analyzed the Vercel breach, detailing how a compromised third-party AI tool enabled unauthorized internal access via OAuth identity abuse and supply-chain vulnerabilities.",
@@ -49,7 +49,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      image: "public/images/cloud-attack-surface.png",
+      image: "/images/cloud-attack-surface.png",
       title: "The Hidden Attack Surface of Modern Cloud Apps in the Age of AI",
       excerpt:
         "Researched the expanding attack surface of cloud-native applications, focusing on identity-based threats, misconfiguration risks, and hidden vulnerabilities in distributed cloud environments.",
@@ -60,7 +60,7 @@ export default function Projects() {
     },
     {
       id: 3,
-      image: "public/images/dns-query.png",
+      image: "/images/dns-query.png",
       title: "DNS Explained in Detail",
       excerpt:
         "Detailed the end-to-end process of URL loading in a browser, covering DNS resolution, TCP/IP communication, NAT/PAT routing, ARP resolution, and the HTTP request lifecycle, with emphasis on security implications.",
