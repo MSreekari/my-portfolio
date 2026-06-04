@@ -52,7 +52,7 @@ const Home = () => {
             }}
           >
             <img
-              src="/src/assets/images/hero-section-image.PNG"
+              src="/public/images/hero-section-image.PNG"
               alt="Cyber security wireframe graphic"
               className="w-full h-auto object-contain block mix-blend-screen opacity-90 group-hover:scale-105 transition-transform duration-700 ease-out"
               onError={(e) => {
